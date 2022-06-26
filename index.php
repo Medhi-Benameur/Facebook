@@ -36,11 +36,11 @@
                 <h2> Et ce sera toujours gratuit </h2>
 
                 <div class="sign_name">
-                  <input class="firstname" type="text"     name="usersFname" placeholder="First name"            >
-                  <input class="lastname"  type="text"     name="usersLname" placeholder="Last name"             >
-                  <input class="email"     type="text"     name="usersEmailOrPhone" placeholder="Mobile number or Email">
-                  <input class="password"  type="password" name="usersPwd"   placeholder="Password"              >
-                  <input class="password2" type="password" name="usersPwd2"  placeholder="Confirm password"      >
+                  <input class="firstname" type="text"     name="usersFname" placeholder="Prénom">
+                  <input class="lastname"  type="text"     name="usersLname" placeholder="Nom de Famille">
+                  <input class="email"     type="text"     name="usersEmailOrPhone" placeholder="Numéro de Téléphone ou Email">
+                  <input class="password"  type="password" name="usersPwd"   placeholder="Mot de passe">
+                  <input class="password2" type="password" name="usersPwd2"  placeholder="Confirmer le mot de passe">
                 </div>
 
                   <div class="sign_birth">
