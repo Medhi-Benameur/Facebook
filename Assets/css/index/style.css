@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --body-height: 85vh ;
+  --body-width:700px ;
+  --background-color:burlywood ;
+  --birth-font-size: 12px;
+  --birth-a-margin-rigth: 10em;
+  --paragraph-font-size: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  :root {
+    --body-width:610px ;
+    --body-height: 132vh ;
+    --birth-a-margin-rigth: 5em;
+    --birth-font-size: 10px;
+    --paragraph-font-size: 14px;
+  }
+}
+
+body {
+  height: var(--body-height);
+  width: var(--body-width);
+  background-color: var(--background-color);
+  margin-top: 0.3em;
+  margin-left: 0.3em;
+}
+
+.navbar {
+  height: 120px;
+  width: var(--main-bg-color);
+  background: -webkit-gradient(linear, left top, left bottom, from(#48649F), color-stop(#3B5998), to(#3B5998));
+  background: linear-gradient(#48649F, #3B5998, #3B5998);
+  border-bottom: 1px solid #253a69;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.navbar .login_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  font-family: verdana;
+  padding: 1em 1em 1em 1em;
+  padding-left: 3em;
+}
+
+.navbar .font {
+  font-size: 13px;
+  padding-bottom: 4px;
+  color: white;
+}
+
+.navbar .email, .navbar .password {
+  margin-right: 1em;
+}
+
+.navbar input {
+  height: 30px;
+  width: 200px;
+  padding-left: 5px;
+  border: 1px solid black;
+  outline: none;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.navbar button {
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  margin-left: 7px;
+  margin-top: 15px;
+  border-radius: 2px;
+  color: white;
+  background: #2d5bba;
+  border: 1px solid #224285;
+}
+
+.navbar button:hover {
+  background: #3B5998;
+  cursor: pointer;
+}
+
+.navbar a {
+  margin-left: 5px;
+  color: #cbd6ef;
+  font-size: 12.2px;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FDFDFE), color-stop(#EFF1F6), color-stop(#E3E6F0), color-stop(#E1E5F0), to(#D6DBEA));
+  background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+          box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+section .register_form {
+  padding-left: 3em;
+  padding-right: 4em;
+  padding-top: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section .register_form h1 {
+  font-weight: bolder;
+  margin-bottom: 0.5em;
+  font-size: 35px;
+}
+
+section .register_form h2 {
+  font-weight: lighter;
+  margin-bottom: 1em;
+  font-size: 28px;
+}
+
+section .register_form h3 {
+  font-weight: lighter;
+  margin-bottom: 0.9em;
+  margin-top: .8em;
+  font-size: 25px;
+}
+
+section .register_form input {
+  font-size: 15px;
+  border: 1px solid silver;
+  border-radius: 4px;
+  height: 40px;
+  margin-bottom: 0.8em;
+}
+
+section .register_form .lastname {
+  float: right;
+}
+
+section .register_form .firstname, section .register_form .lastname {
+  width: 48%;
+}
+
+section .register_form .email, section .register_form .password, section .register_form .password2 {
+  width: 99.53%;
+}
+
+section .register_form input::-webkit-input-placeholder {
+  padding: 10px;
+}
+
+section .register_form input:-moz-placeholder {
+  padding: 10px;
+}
+
+section .register_form input::-moz-placeholder {
+  padding: 10px;
+}
+
+section .register_form input:-ms-input-placeholder {
+  padding: 10px;
+}
+
+section .register_form .sign_birth select {
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 13%;
+  margin-bottom: 1em;
+  height: 28px;
+}
+
+section .register_form .sign_birth a {
+  font-size: var(--birth-font-size);
+  float: right;
+  width: 200px;
+  text-decoration: none;
+  margin-right: var(--birth-a-margin-rigth);
+  margin-top: -1em;
+}
+
+section .register_form .sign_gender {
+  font-size: 25px;
+  margin-top: .5em;
+  line-height: 30px;
+}
+
+section .register_form .sign_gender input {
+  vertical-align: top;
+}
+
+section .register_form p {
+  font-size: var(--paragraph-font-size);
+  width: 380px;
+  color: grey;
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+section .register_form button {
+  margin-top: 20px;
+  height: 50px;
+  width: 220px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #006117;
+  border-radius: 3px;
+  outline: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6fad5a), color-stop(#66a150), to(#60974C));
+  background: linear-gradient(#6fad5a, #66a150, #60974C);
+}
+
+section .register_form button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#74b85e), to(#598B45));
+  background: linear-gradient(#74b85e, #598B45);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
