@@ -7,7 +7,6 @@ Computer languages used :
     - JavaScript    : 3h30
     - Rejex         : 30m
     - Sql           : 4h
-
     - code tweaking : 7h
 
 tools Sotware Website :
