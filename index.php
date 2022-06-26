@@ -54,7 +54,7 @@
                   <div class="sign_gender">
                     <input type="radio" name="usersGender" value="Homme" id="y" />
                     <label for="y"> Homme </label>
-                    <input type="radio" name="usersGender" value="femme" id="z" />
+                    <input type="radio" name="usersGender" value="Femme" id="z" />
                     <label for="z" >Femme</label>
                   </div>
 
