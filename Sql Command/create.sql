@@ -1,3 +1,5 @@
+CREATE DATABASE facebook
+
 CREATE TABLE users (
 	 usersId INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	 usersFname varchar(128)  NOT NULL,
