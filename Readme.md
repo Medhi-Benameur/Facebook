@@ -1,6 +1,8 @@
 Test : creation of a facebook authentication
 carried out by mehdi benameur.
 
+<img width="300" alt="Capture d’écran 2022-06-27 à 08 31 03" src="https://user-images.githubusercontent.com/86272006/175874170-83b2e4d3-fbfe-4e8d-903d-2f94c7995970.png">
+
 
 Step to run the project
 
@@ -33,7 +35,7 @@ tools Sotware Website :
     - https://regex101.com/
   
 
-<img width="400" alt="Capture d’écran 2022-06-27 à 08 31 03" src="https://user-images.githubusercontent.com/86272006/175874170-83b2e4d3-fbfe-4e8d-903d-2f94c7995970.png">
+<img width="300" alt="Capture d’écran 2022-06-27 à 08 31 03" src="https://user-images.githubusercontent.com/86272006/175874170-83b2e4d3-fbfe-4e8d-903d-2f94c7995970.png">
 
 
 
