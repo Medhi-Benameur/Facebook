@@ -12,7 +12,7 @@ Step to run the project
 Étape pour exécuter le projet
 
 1) Créer une base de données via PostgreSQL ou mysql avec le fichier create.sql disponible dans le dossier Sql Command
-2) Lancez ensuite un serveur pour lancer l'exemple index.php vous pouvez utiliser mamp
+2) Lancez ensuite un serveur pour lancer index.php vous pouvez utiliser mamp
 3) Allez dans le dossier Librairies et ouvrez le fichier database.php afin de saisir l'identifiant, le mot de passe, le port pour vous connecter à votre base de données
 
 
